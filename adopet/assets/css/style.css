@@ -1,0 +1,33 @@
+.app {
+	background: #3772ff;
+	display: grid;
+	grid-template-columns:
+		"cabecalho"
+		"principal"
+		"rodape";
+	grid-template-columns: auto;
+	grid-template-rows: 50px auto auto;
+
+}
+
+.cabecalho {
+	align-items: center;
+	display: flex;
+	grid-area: cabecalho;
+	padding: 0 2rem;
+}
+
+.principal{
+	grid-area: principal;
+	padding: 0 2rem;
+}
+
+.rodape {
+	background: #36d6ad;
+	color: #FFF;
+	font-size: 1.025rem;
+	grid-area: rodape;
+	padding: 1rem;
+	text-align: center;
+}
+
